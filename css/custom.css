@@ -3,6 +3,9 @@
         max-width: 1140px;
     }
 }
+*{
+    font-family: 'Montserrat';
+}
 .navbar-brand{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -17,7 +20,41 @@
     font-weight: 500;
     font-size: 15px;
 }
+.navbar-light .navbar-nav .nav-link.btn{
+    padding: 0 20px;
+}
 .reviews__container , .faq__container{
     padding: 100px 50px;
     background-color:#F0F5F9;
 }
+/* Text colors */
+
+.btn{
+    padding: 0 20px;
+    line-height: 38px;
+}
+
+.text-dark-custom {
+    color: #3a3a47!important;
+}
+.text-grey-custom {   
+    color: #5c5c5c!important;
+}    
+.text-light-grey-custom {
+    color: #818198 !important;
+}
+.text-dark-blue-custom {  
+    color: #383B61 !important;
+}
+.text-blue-custom {
+    color: #3498db!important;
+}
+.text-green-custom {
+    color: #21bf73!important;
+}
+    
+.bg-primary-custom {    
+        background-color: #f0f5f9!important;
+}
+
+    /* Background colors */ 
